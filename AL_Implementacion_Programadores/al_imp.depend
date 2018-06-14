@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1513121052 source:c:\users\lachini\desktop\parcial dos!!!\al_franas\al_imp\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1512782314 c:\users\lachini\desktop\parcial dos!!!\al_franas\al_imp\arraylist.h
+
+1513121555 source:c:\users\lachini\desktop\parcial dos!!!\al_franas\al_imp\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<limits.h>
+	"ArrayList.h"
+	"lib.h"
+
+1513121529 source:c:\users\lachini\desktop\parcial dos!!!\al_franas\al_imp\lib.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<limits.h>
+	"ArrayList.h"
+	"lib.h"
+
+1513121568 c:\users\lachini\desktop\parcial dos!!!\al_franas\al_imp\lib.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"ArrayList.h"
+

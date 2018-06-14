@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="utest" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/utest" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="../../../../arraylist" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/utest" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="../../../../arraylist" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="../../../utest.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../utest.h" />
+		<Unit filename="../inc/ArrayList.h" />
+		<Unit filename="../inc/Employee.h" />
+		<Unit filename="../testing/inc/eighthTest.h" />
+		<Unit filename="../testing/inc/eleventhTest.h" />
+		<Unit filename="../testing/inc/fifteenthTest.h" />
+		<Unit filename="../testing/inc/fifthTest.h" />
+		<Unit filename="../testing/inc/firstTest.h" />
+		<Unit filename="../testing/inc/fourteenthTest.h" />
+		<Unit filename="../testing/inc/fourthTest.h" />
+		<Unit filename="../testing/inc/main_test.h" />
+		<Unit filename="../testing/inc/ninthTest.h" />
+		<Unit filename="../testing/inc/secondTest.h" />
+		<Unit filename="../testing/inc/seventeenthTest.h" />
+		<Unit filename="../testing/inc/seventhTest.h" />
+		<Unit filename="../testing/inc/sixteenthTest.h" />
+		<Unit filename="../testing/inc/sixthTest.h" />
+		<Unit filename="../testing/inc/tenthTest.h" />
+		<Unit filename="../testing/inc/thirdTest.h" />
+		<Unit filename="../testing/inc/thirteenthTest.h" />
+		<Unit filename="../testing/inc/twelfthTest.h" />
+		<Unit filename="../testing/src/eighthTest.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../testing/src/eleventhTest.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../testing/src/fifteenthTest.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../testing/src/fifthTest.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../testing/src/firstTest.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../testing/src/fourteenthTest.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../testing/src/fourthTest.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../testing/src/main_test.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../testing/src/ninthTest.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../testing/src/secondTest.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../testing/src/seventeenthTest.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../testing/src/seventhTest.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../testing/src/sixteenthTest.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../testing/src/sixthTest.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../testing/src/tenthTest.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../testing/src/thirdTest.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../testing/src/thirteenthTest.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../testing/src/twelfthTest.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ArrayList.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Employee.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

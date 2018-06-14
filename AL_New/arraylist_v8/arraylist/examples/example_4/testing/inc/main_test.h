@@ -1,0 +1,1 @@
+void startTesting(int testGroup);

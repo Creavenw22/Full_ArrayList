@@ -1,0 +1,97 @@
+# depslib dependency file v1.0
+1497874060 source:d:\tp4\pruebaparcial\pruebaparcial2\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1497648205 d:\tp4\pruebaparcial\pruebaparcial2\arraylist.h
+
+1497885523 source:d:\tp4\pruebaparcial\pruebaparcial2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"ArrayList.h"
+	"lib.h"
+
+1497885755 d:\tp4\pruebaparcial\pruebaparcial2\lib.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"ArrayList.h"
+
+1497885647 source:d:\tp4\pruebaparcial\pruebaparcial2\lib.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<limits.h>
+	"ArrayList.h"
+	"lib.h"
+
+1497871492 source:c:\users\tomas\downloads\tp_laboratorio_1-master\tp_laboratorio_1-master\tp4\pruebaparcial\pruebaparcial2\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1497871492 c:\users\tomas\downloads\tp_laboratorio_1-master\tp_laboratorio_1-master\tp4\pruebaparcial\pruebaparcial2\arraylist.h
+
+1498706817 source:c:\users\tomas\downloads\tp_laboratorio_1-master\tp_laboratorio_1-master\tp4\pruebaparcial\pruebaparcial2\lib.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<limits.h>
+	"ArrayList.h"
+	"lib.h"
+
+1498704287 c:\users\tomas\downloads\tp_laboratorio_1-master\tp_laboratorio_1-master\tp4\pruebaparcial\pruebaparcial2\lib.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"ArrayList.h"
+
+1498706553 source:c:\users\tomas\downloads\tp_laboratorio_1-master\tp_laboratorio_1-master\tp4\pruebaparcial\pruebaparcial2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"ArrayList.h"
+	"lib.h"
+
+1498692472 source:c:\users\lachini\desktop\parcial dos!!!\pruebaparcial\pruebaparcial2\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1498692472 c:\users\lachini\desktop\parcial dos!!!\pruebaparcial\pruebaparcial2\arraylist.h
+
+1512852205 source:c:\users\lachini\desktop\parcial dos!!!\pruebaparcial\pruebaparcial2\lib.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<limits.h>
+	"ArrayList.h"
+	"lib.h"
+
+1498692472 c:\users\lachini\desktop\parcial dos!!!\pruebaparcial\pruebaparcial2\lib.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"ArrayList.h"
+
+1498692472 source:c:\users\lachini\desktop\parcial dos!!!\pruebaparcial\pruebaparcial2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"ArrayList.h"
+	"lib.h"
+
