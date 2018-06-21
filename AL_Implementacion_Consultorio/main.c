@@ -16,7 +16,9 @@ int main()
     ArrayList* totalPacientes=al_newArrayList();
     if(cargarTurnos(listaUrgentes,listaRegular,totalPacientes)==0)
     {
-        printf("Listas cargadas con exito\n");
+        printf("\n\n\t\t\t~~Listas cargadas con exito~~\n\n\n");
+        system("pause");
+        system("cls");
     }
     do
     {
@@ -34,6 +36,7 @@ int main()
                 break;
             case 3:
                 clientesEnEspera(listaUrgentes,listaRegular);
+                printf("\n\n");
                 break;
             case 4:
                 totalPacientes->sort(totalPacientes,*compararClientes,1);

@@ -8,6 +8,7 @@
 
 void menu(void)
 {
+    printf("\n\t\t\t~Sistema de turnos de consultorio~\n\n");
     printf("1- Ingresar un cliente\n");
     printf("2- Proximo cliente\n");
     printf("3- Clientes pendientes\n");
@@ -121,7 +122,8 @@ void ingresoCliente(ArrayList* listaUrgentes, ArrayList* listaRegular,int* punte
     char* tipoTramite=(char*)malloc(sizeof(char)*10);
     int dniNum;
     int tramiteNum;
-    printf("Ingrese su DNI: ");
+    system("cls");
+    printf("\n\nIngrese su DNI: ");
     fflush(stdin);
     gets(dni);
     dniNum=validarDigitoRango(dni,100000,max);
@@ -132,6 +134,7 @@ void ingresoCliente(ArrayList* listaUrgentes, ArrayList* listaRegular,int* punte
         gets(dni);
         dniNum=validarDigitoRango(dni,100000,max);
     }
+    system("cls");
     printf("Ingrese el tipo de tramite a realizar\n");
     printf("1- TRAMITE URGENTE\n");
     printf("2- TRAMITE REGULAR\n");
@@ -146,22 +149,26 @@ void ingresoCliente(ArrayList* listaUrgentes, ArrayList* listaRegular,int* punte
         {
             if(listaUrgentes->add(listaUrgentes,nuevoCliente)==0)
             {
-                printf("DNI: %d.Su numero de turno es %d, aguarde en unos momentos sera atendido\n",dniNum,*punteroTurno);
+                system("cls");
+                printf("\nDNI: %d. SU NUMERO DE TURNO ES %d.\n\nAGUARDE, EN UNOS MOMENTOS SERA ATENDIDO... O NO?\n\n\n\n",dniNum,*punteroTurno);
             }
         }
         else
         {
             if(listaRegular->add(listaRegular,nuevoCliente)==0)
             {
-                printf("DNI: %d.Su numero de turno es %d, aguarde en unos momentos sera atendido\n",dniNum,*punteroTurno);
+                system("cls");
+                printf("\nDNI: %d. SU NUMERO DE TURNO ES %d.\n\nAGUARDE, EN UNOS MOMENTOS SERA ATENDIDO... O NO?\n\n\n\n",dniNum,*punteroTurno);
             }
         }
     }
-    mostrarUnCliente(nuevoCliente);
+    //mostrarUnCliente(nuevoCliente);
 }
 
 void proximoCliente(ArrayList* listaUrgentes, ArrayList* listaRegular, ArrayList* totalPacientes)
 {
+    system("cls");
+    printf("\n\n");
     eCliente* proximoCliente=NULL;
     if(listaUrgentes->size>0)
     {
@@ -182,7 +189,7 @@ void proximoCliente(ArrayList* listaUrgentes, ArrayList* listaRegular, ArrayList
     }
     else
     {
-        printf("No hay clientes en espera\n");
+        printf("\n\nNO HAY PACIENTES EN ESPERA\n");
     }
 }
 
@@ -203,10 +210,11 @@ void mostrarUnCliente(eCliente* unCliente)
 
 void clientesEnEspera(ArrayList* listaUrgentes, ArrayList* listaRegular)
 {
+    system("cls");
     int i;
     if(listaUrgentes->size>0)
     {
-        printf("Clientes urgentes que estan en espera: \n");
+        printf("\n\nPACIENTES URGENTES EN ESPERA: \n");
         for(i=0; i<listaUrgentes->len(listaUrgentes); i++)
         {
             mostrarUnCliente(listaUrgentes->pElements[i]);
@@ -214,11 +222,12 @@ void clientesEnEspera(ArrayList* listaUrgentes, ArrayList* listaRegular)
     }
     else
     {
-        printf("No hay clientes urgentes en espera\n");
+
+        printf("\n\nNO HAY PACIENTES URGENTES EN ESPERA\n");
     }
     if(listaRegular->size>0)
     {
-        printf("Clientes regulares que estan en espera: \n");
+        printf("\n\nPACIENTES REGULARES EN ESPERA: \n");
         for(i=0; i<listaRegular->len(listaRegular); i++)
         {
             mostrarUnCliente(listaRegular->pElements[i]);
@@ -226,7 +235,7 @@ void clientesEnEspera(ArrayList* listaUrgentes, ArrayList* listaRegular)
     }
     else
     {
-        printf("No hay clientes regulares en espera\n");
+        printf("\n\nNO HAY PACIENTES REGULARES EN ESPERA\n");
     }
 }
 

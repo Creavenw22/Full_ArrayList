@@ -63,3 +63,35 @@
 	"ArrayList.h"
 	"lib.h"
 
+1529589975 source:d:\##bustamante\full_arraylist\al_implementacion_consultorio\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1529589975 d:\##bustamante\full_arraylist\al_implementacion_consultorio\arraylist.h
+
+1529592754 source:d:\##bustamante\full_arraylist\al_implementacion_consultorio\lib.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<limits.h>
+	"ArrayList.h"
+	"lib.h"
+
+1529589976 d:\##bustamante\full_arraylist\al_implementacion_consultorio\lib.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"ArrayList.h"
+
+1529592820 source:d:\##bustamante\full_arraylist\al_implementacion_consultorio\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"ArrayList.h"
+	"lib.h"
+
